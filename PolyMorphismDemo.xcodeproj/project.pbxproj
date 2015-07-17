@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BBCC47381B58FB3000FD1644 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC47371B58FB3000FD1644 /* main.swift */; };
+		BBCC473F1B58FB7800FD1644 /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC473E1B58FB7800FD1644 /* Chef.swift */; };
+		BBCC47411B58FC4E00FD1644 /* CookingAppliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC47401B58FC4E00FD1644 /* CookingAppliance.swift */; };
+		BBCC47431B58FCA400FD1644 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC47421B58FCA400FD1644 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		BBCC47341B58FB2F00FD1644 /* PolyMorphismDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PolyMorphismDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCC47371B58FB3000FD1644 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BBCC473E1B58FB7800FD1644 /* Chef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		BBCC47401B58FC4E00FD1644 /* CookingAppliance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookingAppliance.swift; sourceTree = "<group>"; };
+		BBCC47421B58FCA400FD1644 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,9 @@
 		BBCC472B1B58FB2F00FD1644 = {
 			isa = PBXGroup;
 			children = (
+				BBCC473E1B58FB7800FD1644 /* Chef.swift */,
+				BBCC47401B58FC4E00FD1644 /* CookingAppliance.swift */,
+				BBCC47421B58FCA400FD1644 /* Food.swift */,
 				BBCC47361B58FB2F00FD1644 /* PolyMorphismDemo */,
 				BBCC47351B58FB2F00FD1644 /* Products */,
 			);
@@ -119,6 +128,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBCC47381B58FB3000FD1644 /* main.swift in Sources */,
+				BBCC47431B58FCA400FD1644 /* Food.swift in Sources */,
+				BBCC473F1B58FB7800FD1644 /* Chef.swift in Sources */,
+				BBCC47411B58FC4E00FD1644 /* CookingAppliance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

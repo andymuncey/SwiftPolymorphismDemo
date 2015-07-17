@@ -8,5 +8,16 @@
 
 import Foundation
 
-println("Hello, World!")
+var chicken = Chicken(freeRamge: true)
+var bbq = BBQ()
+var andrew = Chef()
+
+andrew.cookFood(chicken, usingAppliance: bbq)
+
+if chicken.isCooked{
+println("Chicken is cooked")
+}
+
+
+
 

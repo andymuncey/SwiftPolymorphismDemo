@@ -11,7 +11,7 @@ import Foundation
 
 class CookingAppliance{
     
-    func cookFood(food: Food){
+    func cook(_ food: Food){
         food.isCooked = true
     }
     

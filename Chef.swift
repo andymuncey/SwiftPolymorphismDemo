@@ -11,8 +11,8 @@ import Foundation
 
 class Chef {
     
-    func cookFood(food: Food, usingAppliance appliance: CookingAppliance){
-        appliance.cookFood(food)
+    func cook(_ food: Food, using appliance: CookingAppliance){
+        appliance.cook(food)
     }
     
     

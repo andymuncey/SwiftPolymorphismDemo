@@ -22,14 +22,14 @@ class Chicken : Food{
     
     var isFreeRange: Bool
     
-    init(freeRamge: Bool){
-        isFreeRange = freeRamge
+    init(freeRange: Bool){
+        isFreeRange = freeRange
     }
 }
 
 class TescoValueChicken : Chicken{
     
     init(){
-    super.init(freeRamge: false)
+    super.init(freeRange: false)
     }
 }
